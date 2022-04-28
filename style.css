@@ -11,7 +11,7 @@
     justify-content: center;
 }
 .wrappper{
-    width: 500px;
+    width: 600px;
     background-color: whitesmoke;
     border-radius: 25px;
     height: 600px;
@@ -28,6 +28,8 @@
     font-weight: 100;
     color: grey;
     margin-left: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 .c{
     display: flex;
@@ -105,3 +107,56 @@
       font-size: medium;
       color: gray;
   }
+  .terms{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      color: gray;
+  }
+  .terms h2{
+      font-size: medium;
+      color: gray;
+      text-decoration: none;
+  }
+  .social{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .social .google{
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background-color: brown;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .social .github{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social .twitter{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social .fb{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
