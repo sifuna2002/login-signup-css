@@ -47,12 +47,13 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin bottom:20px;
+    margin-bottom:20px;
 }
 .inputs{
     display: flex;
     width: 100%;
     flex-direction: column;
+
 }
 .inputs input{
     margin: 10px;
