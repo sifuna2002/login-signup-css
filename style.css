@@ -30,6 +30,7 @@
     margin-left: 20px;
     font-size: 1.5em;
     cursor: pointer;
+    text-decoration: none;
 }
 .c{
     display: flex;
@@ -120,10 +121,12 @@
       text-decoration: none;
   }
   .social{
+      margin-top: 10px;
       display: flex;
       align-items: center;
       justify-content: space-around;
   }
+
   .social .google{
       height: 30px;
       width: 30px;
@@ -132,31 +135,39 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
   }
   .social .github{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #4078c0;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .social .twitter{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #1DA1F2;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .social .fb{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: blue;
+    background-color:#4267B2;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+a:link, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
